@@ -1,0 +1,269 @@
+{
+  "namespace": "smite-api",
+  "routes": {
+    "\\/smite-api": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "namespace": {
+              "required": false,
+              "default": "smite-api"
+            },
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https:\\/\\/cms.smitegame.com\\/wp-json\\/smite-api"
+      }
+    },
+    "\\/smite-api\\/registerView\\/(?P<height>[a-zA-Z0-9-]+)\\/(?P<width>[a-zA-Z0-9-]+)\\/(?P<bpp>[a-zA-Z0-9-]+)\\/(?P<lang>[a-zA-Z0-9-]+)\\/(?P<platform>[a-zA-Z0-9-]+)\\/(?P<is64Bit>[a-zA-Z0-9-]+)\\/(?P<timeOffset>[a-zA-Z0-9-]+)\\/(?P<utm_campaign>[a-zA-Z0-9-]+)\\/(?P<utm_source>[a-zA-Z0-9-]+)\\/(?P<utm_medium>[a-zA-Z0-9-]+)\\/(?P<utm_content>[a-zA-Z0-9-]+)\\/(?P<touchEnabled>[a-zA-Z0-9-]+)\\/(?P<publisher_id>[a-zA-Z0-9-]+)\\/(?P<site_id>[a-zA-Z0-9-]+)\\/(?P<source_game>[a-zA-Z0-9-]+)\\/(?P<tuneid>[a-zA-Z0-9-]+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/fingerprintAcqUser\\/(?P<height>[a-zA-Z0-9-]+)\\/(?P<width>[a-zA-Z0-9-]+)\\/(?P<bpp>[a-zA-Z0-9-]+)\\/(?P<lang>[a-zA-Z0-9-]+)\\/(?P<platform>[a-zA-Z0-9-]+)\\/(?P<is64Bit>[a-zA-Z0-9-]+)\\/(?P<timeOffset>[a-zA-Z0-9-]+)\\/(?P<utm_campaign>[a-zA-Z0-9-]+)\\/(?P<utm_source>[a-zA-Z0-9-]+)\\/(?P<utm_medium>[a-zA-Z0-9-]+)\\/(?P<utm_content>[a-zA-Z0-9-]+)\\/(?P<touchEnabled>[a-zA-Z0-9-]+)\\/(?P<publisher_id>[a-zA-Z0-9-]+)\\/(?P<site_id>[a-zA-Z0-9-]+)\\/(?P<source_game>[a-zA-Z0-9-]+)\\/(?P<tuneid>[a-zA-Z0-9-]+)\\/(?P<accountName>[a-zA-Z0-9-%.]+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/getItems\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/all-gods\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/homepage-content\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/get-post\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET",
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        },
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/get-posts\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/god-skin\\/(?P<god_id>\\\\d+)\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/olympian-updates\\/(?P<lang>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/adventures\\/(?P<lang>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/adventures-i18n\\/(?P<lang>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/queue-stats\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/player-info\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/match-history\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/rec-items\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    },
+    "\\/smite-api\\/in-game-update-notes\\/(?P<lang_id>\\\\d+)": {
+      "namespace": "smite-api",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": []
+        }
+      ]
+    }
+  },
+  "_links": {
+    "up": [
+      {
+        "href": "https:\\/\\/cms.smitegame.com\\/wp-json\\/"
+      }
+    ]
+  }
+}
